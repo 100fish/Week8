@@ -1,0 +1,228 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1780,
+      "max": [
+        -3.3974530696868896,
+        37.838531494140625,
+        382.62777709960938
+      ],
+      "min": [
+        -35.666957855224609,
+        23.316211700439453,
+        344.08908081054688
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 1780,
+      "max": [
+        0.99999213218688965,
+        0.99998468160629272,
+        0.99999195337295532
+      ],
+      "min": [
+        -0.97743988037109375,
+        -1,
+        -0.97128409147262573
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 1780,
+      "max": [
+        0.998046875,
+        0.9990234375
+      ],
+      "min": [
+        0.001953125,
+        0.0009765625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 4269,
+      "type": "SCALAR"
+    },
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "byteOffset": 56960,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        -3.5518527030944824,
+        37.838191986083984,
+        380.31546020507813
+      ],
+      "min": [
+        -21.770999908447266,
+        23.316535949707031,
+        350.40945434570313
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 56972,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.19060756266117096,
+        0.99998468160629272,
+        0.71745449304580688
+      ],
+      "min": [
+        -0.81038624048233032,
+        -1,
+        -0.38925334811210632
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 56984,
+      "componentType": 5126,
+      "count": 84,
+      "max": [
+        0.501953125,
+        0.998046875
+      ],
+      "min": [
+        0.001953125,
+        0.923828125
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8538,
+      "componentType": 5123,
+      "count": 210,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 59648,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8958,
+      "byteOffset": 59648,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 68608,
+      "uri": "20525362525051727170_LOD00.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "20525362525051727170_LOD00_0.png"
+    },
+    {
+      "uri": "20525362525051727170_LOD00_1.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0
+      }
+    },
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "20525362525051727170_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "20525362525051727170_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    },
+    {
+      "mesh": 1
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    },
+    {
+      "source": 1
+    }
+  ]
+}

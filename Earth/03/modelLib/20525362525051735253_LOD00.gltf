@@ -1,0 +1,136 @@
+{
+  "asset": {
+    "copyright": "",
+    "generator": "SharpGLTF 1.0.0",
+    "version": "2.0"
+  },
+  "accessors": [
+    {
+      "name": "POSITION",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 112,
+      "max": [
+        -420.39242553710938,
+        37.832687377929688,
+        175.68325805664063
+      ],
+      "min": [
+        -429.65670776367188,
+        37.369129180908203,
+        156.56782531738281
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "NORMAL",
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 112,
+      "max": [
+        0.29399934411048889,
+        0.9999847412109375,
+        0.37174233794212341
+      ],
+      "min": [
+        -0.34336277842521667,
+        0.91120362281799316,
+        -0.21793040633201599
+      ],
+      "type": "VEC3"
+    },
+    {
+      "name": "TEXCOORD_0",
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 112,
+      "max": [
+        0.583984375,
+        0.998046875
+      ],
+      "min": [
+        0.017578125,
+        0.916015625
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 339,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3584,
+      "byteStride": 32,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 678,
+      "byteOffset": 3584,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 4264,
+      "uri": "20525362525051735253_LOD00.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "20525362525051735253_LOD00.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "20525362525051735253_0",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "source": 0
+    }
+  ]
+}
